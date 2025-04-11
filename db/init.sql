@@ -1,3 +1,6 @@
+CREATE DATABASE knowledgebase_db;
+\c knowledgebase_db;
+
 CREATE TABLE knowledgebase (
     id SERIAL PRIMARY KEY,
     type VARCHAR(20),
